@@ -9,9 +9,8 @@ body {
 button {
   background: #3882F6;
   color: white;
-  padding: 6px 24px;
+  padding: 8px 24px;
   border-radius: 9px;
-  border-style: none;
 }
 
 ul {
@@ -37,19 +36,19 @@ ul {
 
 .logo {
   font-size: 24px;
-  color: aliceblue;
+  color: #F9FAF8;
 }
 
 .links {
   font-size: 18px;
-  color: aliceblue;
+  color: #E5E7EB;
 }
 
 .section-1 {
   background: #1F2937;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   margin-bottom: 24px;
   padding: 40px 140px;
   gap: 48px;
@@ -63,14 +62,119 @@ ul {
 
 .hero-secondary {
   font-size: 18px;
-  color: aliceblue;
-  margin-bottom: 12px;
+  color: #E5E7EB;
+  margin-bottom: 8px;
 }
 
 .image-container {
-  color: aliceblue;
+  color: white;
   background: #97a3b5;
   font-size: 12px;
   padding: 90px 110px;
   flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 48px;
+  gap: 26px;
+}
+
+.info {
+  max-width: 160px;
+}
+
+.card {
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #3882F6;
+  color: white;
+  font-size: 1px;
+  padding-bottom: 100%;
+  height: auto;
+}
+
+.text {
+  color: #1F2937;
+  margin-top: 10px;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #E5E7EB;
+  padding: 60px 120px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.cite {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+.section-4 {
+  background: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 48px;
+  padding: 20px;
+  gap: 48px;
+}
+
+.action-main {
+  font-size: 18px;
+  font-weight: bold;
+  color: #E5E7EB;
+}
+
+.action-secondary {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 8px;
+}
+
+.bottom-button {
+  background: #3882F6;
+  color: #E5E7EB;
+  padding: 6px 24px;
+  border-radius: 9px;
+  border-color: #E5E7EB;
+}
+
+.footer {
+  background: #1F2937;
+  font-size: 14px;
+  color: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
 }
