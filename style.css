@@ -87,6 +87,7 @@ ul {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  margin: 12px 48px;
 }
 
 .info-container {
@@ -94,7 +95,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  margin: 48px;
+  margin: 12px 48px 48px 48px;
   gap: 26px;
 }
 
